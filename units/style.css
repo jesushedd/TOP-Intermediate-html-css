@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    border: 0px;
+    margin: 0px;
+}
+
+.hex {
+    background-color: #86defa;
+  }
+
+  /* Add styles here Task1 */
+  
+.rgb{
+    background-color: rgb(134, 222, 250);
+}
+
+.hsl{
+    background-color: hsl(194, 92%, 75%);
+}
+
+.transparency{
+    background-color: rgb(134, 222, 250,0.6);
+    
+}
+
+
+  /* Add styles here Task 2 */
+  h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 + p {
+    font-size: 120%;
+}
+
+
+/* Add styles here Task 3 */
+.box {
+    background-image: url(https://mdn.github.io/shared-assets/images/examples/purple-star.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 3/1;
+    background-position: center 20%;
+    border: 10px solid black;
+  }
+  
