@@ -1,4 +1,23 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Regular.woff2') format('woff2'),
+      url('./fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('./fonts/JosefinSans-Regular.woff2') format('woff2'),
+      url('./fonts/JosefinSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* General setup */
+
 
 html {
     font-size: 10px;
@@ -16,14 +35,18 @@ html {
   
   h1 {
     font-size: 3.2rem;
+    font-family: 'Josefin Sans';
   }
   
   h2 {
     font-size: 2.4rem;
+    font-family: 'Josefin Sans';
   }
   
   p {
     font-size: 1.4rem;
     line-height: 1.6;
     word-spacing: 0.5rem;
+    font-family: 'Montserrat';
+    word-spacing: .6em;
   }
