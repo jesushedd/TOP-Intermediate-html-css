@@ -1,0 +1,24 @@
+.bg-test{
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.bg-color{
+    background:  green;
+}
+
+.bg-img{
+    background: url(./cpe.jpeg) repeat-x;
+    color: red;
+}
+
+.bg-vb{
+    background: border-box red;
+}
+
+.bg-img-center{
+    background: url(./cpe.jpeg) no-repeat center/100%;
+}
