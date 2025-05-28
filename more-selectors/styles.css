@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div{
+    border: 2px solid red;
+}
+
+main > div{
+    background-color: antiquewhite;
+}
+
+main > div > div{
+    background-color: azure;
+}
+
+.group1 + div{
+    width: 340px;
+}
+
+.group2 + div {
+    width: 200px;
+}
+
+.group1 ~ div {
+    border-radius: 1080px;
+}
+
